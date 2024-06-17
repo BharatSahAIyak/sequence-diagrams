@@ -1,4 +1,5 @@
-⁠sequenceDiagram
+```mermaid
+ sequenceDiagram
     Telephony/App->>+Inbound Service: Audio Stream/Text (Their API)
     Inbound Service->>+Caller History: UserId
     Caller History-->>-Inbound Service: History (PII Redacted)
@@ -81,3 +82,5 @@
             
                     end
     end
+
+```
