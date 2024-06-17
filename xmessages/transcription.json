@@ -1,0 +1,37 @@
+{
+    "to": {
+      "userID": "admin"
+    },
+    "from": {
+      "userID": "9999999999"
+    },
+    "channelURI": "Whatsapp",
+    "providerURI": "Gupshup",
+    "messageState": "REPLIED",
+    "messageId": {
+      "Id": "52e208c7-58fb-402f-a572-0be799d6db40"
+    },
+    "messageType": "AUDIO",
+    "timestamp": 1715681599000,
+    "payload": {
+      "text": "hi then",
+      "media": [
+        {
+          "url": "https://minio.samagra.io/audiofile2",
+          "category": "AUDIO",
+          "mimeType": "audio/ogg; codecs=opus"
+        }
+      ]
+    },
+    "transformer": {
+        "metaData": {
+            "voiceDetect": "detected",
+            "detectedLanguage": "en",
+            "speechToTextData": "hi then"
+        }
+    },
+    "adapterId": "c56b0831-61f9-4760-b3fb-1344f72f5ea9",
+    "app": "f9dde66b-72d7-4d2e-aa9e-830c15b5d0b3",
+    "ownerId": "f1a7898b-fe27-495c-a6da-e484a04ba00f",
+    "orgId": "4e94fb92-b06f-46c2-91ec-027b5814646b"
+}
